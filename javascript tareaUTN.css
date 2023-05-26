@@ -1,0 +1,55 @@
+body{
+    font-size: 25px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100 */
+background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(top,  rgb(43, 177, 9) 0%, rgba(9, 187, 68, 0.562) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgb(201, 134, 10) 0%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+background-repeat: no-repeat;
+min-height: 100vh;
+margin: 50px;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif ;
+    padding: 6px;
+    min-width: fit-content;
+font-size: 30px;
+text-align: center;
+
+}
+
+.section1{
+    display: flex;
+    margin: 15px 0px;
+    gap: 45px;
+}
+
+.section1 div{
+    background-color: rgba(0, 255, 255, 0.5);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 2px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+.section1 div p{
+    height: fit-content;
+    line-height: 1px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section1 div:hover{
+    background-color: aqua;
+}
+
+
+i{
+    font-size: 45px;
+    margin: 0 auto;
+}
